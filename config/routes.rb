@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get 'posts/index'
 
 
-  get "/" => "home#top"
+  root "/" => "home#top"
   get "beans" => "home#beans"
   get "buy" => "home#beans"
   get "equipment" => "home#beans"
