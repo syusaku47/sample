@@ -1,0 +1,168 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+background-coloer:#dddddd → #ddd
+
+
+*/
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;/*ゴシック体のフォント*/
+  /*serif,"Avenir NEXT"*/
+}
+
+
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+.singleinbox{
+    background-color:#F8F4E6;
+}
+
+h1{
+  color: black;
+  text-align: center;/*llll*/
+  font-size:60px;
+  padding-top:50px;
+  letter-spacing: 5px;
+
+}
+
+.top-wrapper{
+
+}
+
+
+.container{
+  width:100%;
+  padding: 0 15px;
+  margin:0 auto;
+}
+
+header{
+  width: 100%;
+  height: 90px;
+  background-color:#D2B48C;
+  color:#fff;
+}
+
+header img{
+  height:90px;
+}
+
+.header-left{
+  float:left;
+}
+
+.header-left p{
+}
+
+.header-right a{
+  float:right;
+  padding:33px 20px;
+  color:white;
+  transition: 1s;
+}
+
+.menu-icon { /*header-right logo*/
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+
+.header-right a:hover{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.section-title{
+  border-bottom:4px solid black;
+  font-size:35px;
+  padding-bottom:10px;
+  margin:40px 0;
+}
+
+
+.photo{
+  width :100%;
+  padding:30px 0;
+}
+input,textarea{
+  width:400px;
+  font-size:20px;
+  margin:15px 0 30px 0;
+  padding:20px;
+  border:1px solid #dee7ec;
+}
+
+.contact-submit{
+  background-color: #dee7ec;
+  color:#889eab;
+}
+
+.btn{
+  font-size:15px;
+  color:white;
+  padding:10px;
+  margin-right:4px;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.fab{
+  margin:5px;
+}
+
+.instagram {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+footer{
+  background-color: #2f5167;
+  color:#fff;
+  padding:40px;
+  height: 90px;
+}
+
+.footer-logo{
+  font-size:32px;
+  float:left;
+}
+
+.footer-list{
+  float:right;
+}
+
+.footer-list li{
+  padding-bottom:20px;
+}
